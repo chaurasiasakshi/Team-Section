@@ -1,0 +1,77 @@
+
+
+ 
+.our-team{
+    padding: 20px 15px 30px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    height: 18em;
+}
+
+.our-team .pic{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+
+}
+.our-team:hover .pic{
+    background: #9ae8a5;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #072106;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+
+   
+}
+
+
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #12441c;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #103710;
+    border: 1px solid #3017be;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #99ea98;
+    color: #113318;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
