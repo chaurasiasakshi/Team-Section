@@ -1,25 +1,26 @@
-
-
+.container-fluid {
+    height: 790px;
  
+    padding: 7em;
+}
 .our-team{
     padding: 20px 15px 30px;
     background: #fff;
     border-radius: 15px;
     text-align: center;
-    height: 18em;
 }
 
 .our-team .pic{
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: #ffffff;
+    background: #969393;
     padding: 10px;
     transition: all 0.5s ease 0s;
 
 }
 .our-team:hover .pic{
-    background: #9ae8a5;
+    background: #000601;
     border-radius: 50%;
 }
 .pic img{
@@ -41,10 +42,9 @@
 
 .our-team .post{
     display: block;
-    font-size: 15px;
-    color: #12441c;
+    font-size: 18px;
     text-transform: capitalize;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .our-team .social{
     padding: 0;
@@ -64,13 +64,13 @@
     line-height: 30px;
     border-radius: 50%;
     font-size: 15px;
-    color: #103710;
+    color: #170663;
     border: 1px solid #3017be;
     transition: all 0.5s ease 0s;
 }
 .our-team:hover .social li a{
-    background: #99ea98;
-    color: #113318;
+    background: #e4ec8a;
+    color: #170663;
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
